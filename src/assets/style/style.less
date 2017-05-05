@@ -1,0 +1,99 @@
+@color-blue: #20a0ff;
+@color-white: #fff;
+@color-gray: #666;
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Helvetica,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.box-wrap{
+    
+}
+.selected{
+    color:@color-blue;
+}
+a,
+a:link,
+a:hover,
+a:active,
+a:visited{
+    color:@color-blue;
+    text-decoration:none;
+}
+.layout{
+}
+.top-nav{
+    height: 60px;
+    background-color: @color-white;
+    color: @color-gray;
+    border-bottom: 1px solid #efefef;
+}
+.search-bar{
+    margin: 0;
+    padding: 14px 0 0 0;
+}
+ .search-bar-input input{
+    margin: 0;
+    width:230px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    /*float: right;*/
+    border: thin solid #dfe6ec;
+    background-color: #dfe6ec;
+}
+.search-bar-input input:hover,
+ .search-bar-input input:focus{
+    border: thin solid #dfe6ec;
+    width:350px;
+}
+.top-icon-bar{
+    text-align: right;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 60px;
+}
+.el-badge{
+    margin:0 5px;
+}
+.el-dropdown i{
+    line-height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.top-icon-bar i{
+    margin: 0 15px;
+}
+
+
+
+
+.dashboard-layout{
+    margin: 10px 0;
+}
+.dashboard-menu-list{
+    margin-top: 56px;
+}
+.dashboard-menu-item{
+    border: thin solid #eee;
+    padding: 18px 20px;
+    text-align: left;
+    margin-bottom: 4px;
+    display: block;
+    border-left: 3px solid #ccc;
+}
+.dashboard-menu-list .selected{
+    color: @color-blue;
+    background-color:@color-white;
+    border-top: 1px solid #eee;
+    border-left: 2px solid  @color-blue;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+input[type="file"]{
+    display:none;
+}

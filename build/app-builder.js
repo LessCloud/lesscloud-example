@@ -1,0 +1,2 @@
+require('lesscloud-app-builder');
+
