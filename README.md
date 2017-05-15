@@ -23,7 +23,14 @@
 
 安装命令如下：
 
+	npm i element-theme -g
+	
+	# 从 npm
+	npm i element-theme-default -D
+	
+	# 从 GitHub
 	npm i https://github.com/ElementUI/theme-default -D
+
 
 你可以通过使用如下命令生成 css 样式文件，以覆盖 ElementUI 的默认样式
 

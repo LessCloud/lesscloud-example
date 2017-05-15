@@ -63,8 +63,6 @@
     "buble-loader": "^0.4.1",
     "cross-env": "^3.2.4",
     "css-loader": "^0.27.3",
-    "element-theme": "^0.7.1",
-    "element-theme-default": "^1.2.7",
     "express": "^4.15.2",
     "file-loader": "^0.10.1",
     "friendly-errors-webpack-plugin": "^1.6.1",
