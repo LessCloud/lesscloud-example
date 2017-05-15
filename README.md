@@ -19,11 +19,18 @@
 
 #####2.安装ElementUI theme
 
-该项目使用 ElementUI 作为样式风格，安装ElementUI theme并非必要，如果不需要自定义 ElementUI，可以修改项目根目录下 src/index.js 打开第八行注释并跳过该步骤。
+该项目使用 ElementUI 作为样式风格，安装ElementUI theme并非必要，
+
+如果不需要安装可以跳过该步骤，
+
+如果需要自定义 ElementUI，可以修改项目根目录下 src/index.js 注释第8行，并打开第9行注释
+
 
 安装命令如下：
 
-	npm i element-theme -g
+	npm i element-theme
+	
+安装默认主题：
 	
 	# 从 npm
 	npm i element-theme-default -D
