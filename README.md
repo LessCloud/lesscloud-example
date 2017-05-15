@@ -51,22 +51,22 @@
 更多详细请参考 http://element.eleme.io/#/zh-CN/component/custom-theme
 
 
-#####3.运行项目
-
-安装完成后，你可以使用命令启动服务:
-
-	npm run start
-	
-你可以在 http://localhost:8080 查看项目页面 （注：如果发生网络请求错误，请确认是否添加 http://localhost:8080 到应用设置中）
-
-#####4.生成模型表单和数据表格
+#####3.生成模型表单和数据表格
 
 当你在 LessCloud Dashboard 中设置好了你的应用后，你可以运行命令：
 
 	npm run app-builder
 	
-根据提示输入相关信息，系统会自动生成应用所需的表单文件和数据表格
+根据提示输入相关信息（APP_ID,APP_SECRET），系统会自动生成应用所需的表单文件和数据表格
 
+
+#####4.运行项目
+
+完成后，你可以使用命令启动服务:
+
+	npm run start
+	
+你可以在 http://localhost:8080 查看项目页面 （注：如果发生网络请求错误，请确认是否添加 http://localhost:8080 到应用设置中）
 
 ###构建应用
 
