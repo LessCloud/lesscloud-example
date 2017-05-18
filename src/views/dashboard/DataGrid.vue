@@ -10,10 +10,7 @@
 import Vue from 'vue'
 import lcAPI from 'lesscloud-sdk'
 
-import Book from './Book.vue'
-import Comment from './Comment.vue'
-import Great from './Great.vue'
-import Recommend from './Recommend.vue'
+~@import.tables@~
 
 export default {
     data(){
@@ -26,10 +23,7 @@ export default {
       }
     },
     components:{
-      Book:Book,
-      Comment:Comment,
-      Great:Great,
-      Recommend:Recommend
+      ~@import.components@~
     },
     created(){
     },

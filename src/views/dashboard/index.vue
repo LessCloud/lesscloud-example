@@ -19,7 +19,7 @@
 export default {
     data(){
         return {
-            menu:[{"name":"Book","label":"图书","defaultCollectionNum":"100","realtime":"enable"},{"name":"Comment","label":"评论","defaultCollectionNum":100,"realtime":"enable"},{"name":"Great","label":"赞👍","defaultCollectionNum":100},{"name":"Recommend","label":"推荐","defaultCollectionNum":100}]
+            menu:~@model.menu@~
         }
     },
     created(){
